@@ -2,7 +2,7 @@ apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
 metadata:
   name: reviews-route
-  namespace: foo
+  namespace: default
 spec:
   hosts:
   - reviews # interpreted as reviews.foo.svc.cluster.local
